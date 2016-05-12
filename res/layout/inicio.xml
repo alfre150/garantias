@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llInicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/estilo_4"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgGarantiaGIA"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imagen_garantia"
+        android:src="@drawable/logo_garatia" />
+
+    <LinearLayout
+        android:id="@+id/llInicio_1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/estilo_3"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:measureWithLargestChild="false"
+        android:orientation="vertical"
+        android:showDividers="beginning" >
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/estilo_2"
+            android:ems="10"
+            android:hint="@string/usuario"
+            android:inputType="text|textNoSuggestions" />
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/estilo_2"
+            android:ems="10"
+            android:hint="@string/clave"
+            android:inputType="textNoSuggestions|textPassword" />
+
+        <LinearLayout
+            android:id="@+id/llInicio_2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/llInicio_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnAceptar"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/estilo_1"
+                    android:text="@string/aceptar" />
+
+                <Button
+                    android:id="@+id/btnCerrar"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/estilo_1"
+                    android:onClick="cerrar"
+                    android:text="@string/cerrar" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/estilo_1"
+                android:onClick="magregarclientes"
+                android:text="@string/registro" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

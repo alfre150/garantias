@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.paquete.si_rixio_alfredo"
+    android:versionCode="1"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/><uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logogia" 
+        android:theme="@style/AppTheme" 
+        android:label="@string/app_name" 
+        android:logo="@drawable/logogia" android:enabled="true">
+        
+       <activity android:name="com.paquete.gia.android.Inicio" android:screenOrientation="portrait">
+            <intent-filter>
+                
+                <action android:name="android.intent.action.MAIN" />
+                
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+               
+                
+                
+			</intent-filter>
+           		 
+        </activity>
+        <activity android:name="com.paquete.gia.android.Menu_ppal" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.paquete.gia.android.Cliente" ></activity>
+       <activity android:name="com.paquete.gia.android.Agregar_Cliente" ></activity>
+        <activity android:name="com.paquete.gia.android.AgregarTalleres" ></activity>
+        <activity android:name="com.paquete.gia.android.Comercios" ></activity>
+        <activity android:name="com.paquete.gia.android.Talleres" ></activity>
+        <activity android:name="com.paquete.gia.android.AgregarComercios" ></activity><activity android:name="Reclamos"></activity>
+        
+        
+        <activity android:name="com.paquete.gia.android.Reclamo"></activity>
+        <activity android:name="com.paquete.gia.android.Agregar_Reclamo"></activity>
+        <activity android:name="com.paquete.gia.android.Reporte"></activity>
+        <activity android:name="com.paquete.gia.android.Elementos_Lista_Reclamo"></activity>
+        <activity android:name="com.paquete.gia.android.Adaptador_Elementos_Lista_Reclamo"></activity>
+        
+        
+        
+        
+        
+        
+        
+        
+    </application>
+
+</manifest>

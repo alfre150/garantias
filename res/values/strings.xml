@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Garantias GIA</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="clientes">Clientes</string>
+    <string name="reportes">Reportes</string>
+    <string name="salir">Salir</string>
+    <string name="talleres">Talleres</string>
+    <string name="reclamos">Reclamos</string>
+    <string name="comercios">Comercios</string>
+    <string name="regresar">Regresar</string>
+    <string name="usuario">Usuario</string>
+    
+    <string name="clave">Clave</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="recordar">Recordar</string>
+    <string name="gracias">Gracias</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="cancelarbusqueda">Presione aqui para cancelar busqueda</string>
+    <string name="agregar">Agregar</string>
+    <string name="rifci">RIF/CI</string>
+    <string name="nombre">Nombre</string>
+    <string name="agregarcliente">Agregar Cliente</string>
+    
+    
+    
+    <string name="correo">Correo@Dominio.com</string>
+    
+    <string name="estado">-Seleccione-</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="agregartalleres">Agregar Talleres</string>
+    <string name="agregarcomercios">Agregar Comercios</string>
+    <string-array name="estados">
+        <item >Estado</item>
+        <item >Amazonas</item>
+        <item >Anzoategui</item>
+        <item >Apure</item>
+        <item >Aragua</item>
+        <item >Barinas</item>
+        <item >Bolivar</item>
+        <item >Carabobo</item>
+        <item >Cojedes</item>
+        <item >Delta Amacuro</item>
+        <item >Distrito Capital</item>
+        <item >Falcon</item>
+        <item >Guarico</item>
+        <item >Lara</item>
+        <item >Merida</item>
+        <item >Miranda</item>
+        <item >Monagas</item>
+        <item >Nueva Esparta</item>
+        <item >Portuguesa</item>
+        <item >Sucre</item>
+        <item >Tachira</item>
+        <item >Trujillo</item>
+        <item >Vargas</item>
+        <item >Yaracuy</item>        
+        <item >Zulia</item>
+    </string-array>        
+        <string name="registrar">Registrar</string>        
+        <string name="imagen_garantia">Logo Garantia GIA</string>        
+        <string name="registro">Registrate !!!</string>        
+        <string name="busqueda">Busqueda</string>        
+        <string name="datos_registro">----------Datos Registro----------</string>
+        <string name="rclave">Repita Clave</string>
+        <string-array name="identificacion">
+            <item >V</item>
+            <item >J</item>
+            <item >E</item>
+            <item >G</item>
+            
+        </string-array>
+        <string-array name="codigocelular">
+            <item >0424</item>
+            <item >0414</item>
+            <item >0416</item>
+            <item >0426</item>
+            <item >0412</item>
+        </string-array>
+        <string name="datos_personales">----------Datos Personales----------</string>
+        <string name="nrogarantia">N° de Garantia</string>
+        <string name="nrofactura">N° de Factura</string>
+        
+        <string name="falla">Falla</string><string name="serial">&quot;Serial: &quot;</string>
+        <string name="observacion">Observacion</string>
+        <string name="registrarreclamo">Registrar Reclamo</string>
+        <string-array name="artefacto"><item>Artefacto</item>
+            
+        </string-array>
+        <string-array name="modelo">
+            <item >Modelo</item>
+        </string-array>
+        <string-array name="falla">
+            
+        <item>Falla</item></string-array>
+            
+        <string name="large_text">Large Text</string>
+            
+        <string name="medium_text">Medium Text</string>
+            
+        <string name="correocliente">correocliente</string>
+            
+        <string name="estatus">&quot;Estatus: &quot;</string>
+            
+        <string name="nroreclamo">"Nro Reclamo: "</string>
+            
+        <string name="pdf">PDF</string><string name="reporte">Reporte</string><string-array name="usuario"><item>Usuario</item>
+            
+        </string-array><string name="artefacto">"Artefacto: "</string>
+        
+        
+        
+        
+        
+        
+        
+                
+                
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>
